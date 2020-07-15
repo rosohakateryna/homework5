@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+.top-menu {
+  background: rgba(255,255,255);
+  padding: 40px;
+ 
+}
+.top-menu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.navbar-logo {display: inline-block;
+    margin-left: 160px;}
+.menu-main {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  margin-right: 140px;
+}
+.menu-main li {display: inline-block;}
+.menu-main a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  line-height: 40px;
+  padding-left: 20px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-family: 'Monserrat', sans-serif;
+  
+  color: rgba(0,0,0,0.5);
+  
+}
+
+img { max-width: 100%;
+
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+  }
+  body{
+    padding-top: 90px;
+  }
+  h1 {
+    font-family: 'Rowdies', cursive;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 1.1px;
+    text-align: left;
+    text-transform: uppercase;
+    color: black;
+}
+h2{
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #9b9b9b;
+}
+.block-center {
+    
+    width: 1000px; /* Ширина блока */
+    margin: auto; /* Отступ от блока */
+    top: 0; /* Положение блока от верхнего края */
+    bottom: 0; /* Положение блока от нижнего края */
+    left: 0; /* Положение блока от левого края */
+    right: 0; /* Положение блока от правого края */
+    padding: 10px; /* Отступ внутри блока */
+    overflow: auto; /* Полоса прокрутки */}
+
+    
+    #c1, #c2, #c3 {
+        width: 31%;
+        text-align: center;
+        display: inline-block;
+        margin: 0 1.5vh;
+    }
+    p{
+        font-family: 'Montserrat';
+        font-size: 16px;
+        line-height: 1.5;
+        
+        /*text-align: justify !important;*/
+        color: #4A4A4A;
+        font-weight: 300;
+    }
+    h3 {font-family: 'Montserrat';
+        font-size: 35px;
+        font-weight: 800;
+        line-height: 40px;
+        letter-spacing: 0.8px;
+        text-align: center;
+        }
+        .button-link {
+            margin-top: 50px;
+            margin-bottom: 10vw;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            text-decoration: none;
+          }
+          
+          .button-black {
+            border-radius: 6px;
+            background-color: black;
+            color: white;
+            text-transform: uppercase;
+            width: 234px;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          
+          .button-black p {
+            font-size: 15px;
+            font-weight: 700;
+            color: white;
+          }
+          .hidden-block {
+            opacity: 0;
+            transition: 0.5s;
+            width: 0px;
+            margin-left: 10px;
+            transition: linear 1s;
+          }
+          .button-black:hover > .hidden-block {
+            opacity: 1;
+            width: 15px;
+          }
+          
+           a:hover {
+            color: #000000; 
+            font-weight: bold;
+            
+           }
+           .featured-projects {
+            width: 100%;
+            height: 400px !important;
+          
+            background-image: url(../images/block_img.png),
+              linear-gradient(120deg, #f4590b, #ffde58);
+            background-position: 135%, 0;
+            background-repeat: no-repeat;
+            background-size: contain;
+            display: flex;
+            align-items: left;
+            flex-direction: column;
+            justify-content: space-around;
+          }
+          .featured-projects .text-wrapper {
+            width: 35%;
+            margin: 10px 10%;
+          }
+          .featured-projects .text-wrapper h1 {
+            font-size: 2.5em;
+            font-weight: 800;
+            margin: 0 3px;
+            color: white;
+            text-transform: uppercase;
+          }
+          .featured-projects .text-wrapper > p {
+            font-size: 1.3em;
+            
+            color: white;
+          }
+
+.list
+    {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+           
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+     }
+.list__item
+     {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    }
+.prev-footer {
+        width: 100%;
+        height: 400px !important;
+      
+        background: #e9e7e7;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+     
+      .prev-footer .text-wrapper h1 {
+        font-size: 2.5em;
+        font-weight: 800;
+        margin: 0 3px;
+        color: white;
+        text-transform: uppercase;
+      }
+      .prev-footer .text-wrapper > p {
+        font-size: 1.3em;
+          
+      }
+.logo{
+    width: 30%;
+}
